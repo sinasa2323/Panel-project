@@ -1,0 +1,45 @@
+
+body{
+    font-family: Vazir;
+    text-align: right;
+    direction: rtl;
+    font-size: 1.05rem;
+
+}
+
+.box-shadow{
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.05) ;
+}
+
+.panel-description{
+    
+    max-width: 700px;
+}
+
+@media(max-width:768px){
+    .panel-description{
+        max-width: 576px;
+    }
+}
+@media(max-width:620px){
+    .panel-description{
+        max-width: 450px;
+    }
+}
+@media(max-width:480px){
+    .panel-description{
+        max-width: 320px;
+    }
+}
+@media(max-width:355px){
+    .panel-description{
+        max-width: 250px;
+    }
+}
+.card-deck .card{
+    min-width: 200px;
+}
+
+.container{
+    max-width: 960px;
+}
